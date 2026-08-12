@@ -59,7 +59,9 @@ The final application brings both predictions together in an interactive **Strea
 ### Objective
 
 Predict the expected freight cost for a vendor invoice using relevant invoice and transaction features.
-![img.png](img.png)
+<p align="center">
+  <img src="images/img.png" width="850">
+</p>
 ### Why it matters
 
 - Freight is an important component of total procurement cost.
@@ -96,7 +98,10 @@ Freight Cost Prediction
 ## 2. Invoice Risk Flagging (Classification)
 
 ### Objective
-![img_1.png](img_1.png)
+<p align="center">
+  <img src="images/img_1.png" width="850">
+</p>
+
 Predict whether an invoice should be flagged for manual review based on its invoice, freight, quantity, and financial characteristics.
 
 ### Why it matters
