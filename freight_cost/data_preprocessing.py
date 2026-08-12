@@ -13,7 +13,7 @@ def vendor_data(file):
     return data
 
 def prepare_features(data):
-    x=data[['Dollars']]
+    x=data[['Dollars','Quantity']]
     y=data['Freight']
 
     return x,y

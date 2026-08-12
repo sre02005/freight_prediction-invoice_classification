@@ -1,10 +1,13 @@
 import pandas
 import joblib
 import pandas as pd
-
-model_path='../models/invoice_classification.pkl'
+import pathlib
+BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
+model_path=BASE_DIR/'models'/'invoice_classification.pkl'
 
 def load_model():
+    print("MODEL PATH:", model_path)
+    print("EXISTS:", model_path.exists())
     with open(model_path,'rb') as file:
         model=joblib.load(file)
     return model
