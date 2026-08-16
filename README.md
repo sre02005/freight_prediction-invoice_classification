@@ -254,13 +254,13 @@ Regression models were evaluated using:
 
 ### Regression Results
 
-| Model | MAE | MSE | R² Score |
-|---|---:|---:|---:|
-| Linear Regression | 30.90 | 13,346.57 | 0.9746 |
-| Decision Tree | 21.38 | 6,135.10 | 0.9883 |
-| Random Forest | 18.80 | 4,138.97 | Best evaluated performance |
+| Model | MAE | MSE |                    R² Score |
+|---|---:|---:|----------------------------:|
+| Linear Regression | 30.90 | 13,346.57 | 0.9746,Best model evaluated |
+| Decision Tree | 21.38 | 6,135.10 |                      0.9583 |
+| Random Forest | 18.80 | 4,138.97 |                      0.9685 
+The Linear regression model produced the lowest error among the evaluated regression models and was therefore preferred for the final freight-cost prediction workflow.
 
-The Random Forest model produced the lowest error among the evaluated regression models and was therefore preferred for the final freight-cost prediction workflow.
 
 ---
 
